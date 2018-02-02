@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CRMPro]">
+  <test name="NewCompanyTest(failed)">
+    <classes>
+      <class name="com.crm.testcases.NewCompanyTest">
+        <methods>
+          <include name="initialization"/>
+          <include name="tearDown"/>
+          <include name="createNewCompanyTest"/>
+        </methods>
+      </class> <!-- com.crm.testcases.NewCompanyTest -->
+    </classes>
+  </test> <!-- NewCompanyTest(failed) -->
+</suite> <!-- Failed suite [CRMPro] -->

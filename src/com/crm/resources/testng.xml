@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CRMPRO = Regression Test Suite">
+ 
+<listeners>
+	<listener class-name = "com.crm.listeners.AnnotationTransformer"/>
+	<listener class-name = "com.crm.listeners.TestNGListeners"/>
+	<listener class-name = "com.crm.listeners.ExtentReportListener"/>
+</listeners>
+
+  <test name="Regression Testing">
+  
+    <classes>
+    
+     <class name="com.crm.RegressionTestcases.BaseTest"></class>
+     <class name="com.crm.RegressionTestcases.LoginTest"></class>
+    <class name="com.crm.RegressionTestcases.HomePage_BasicInfoTest"></class>
+    <class name="com.crm.RegressionTestcases.QuickCreateTest"></class>
+    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CRMPRO = Sanity Test]">
+  <test name="2. HomePage_BasicTest(failed)">
+    <classes>
+      <class name="com.crm.testcases.HomePage_BasicInfoTest">
+        <methods>
+          <include name="login"/>
+          <include name="tearDown"/>
+          <include name="validateLoggedInTimeStamp"/>
+        </methods>
+      </class> <!-- com.crm.testcases.HomePage_BasicInfoTest -->
+    </classes>
+  </test> <!-- 2. HomePage_BasicTest(failed) -->
+</suite> <!-- Failed suite [CRMPRO = Sanity Test] -->
